@@ -1,0 +1,7 @@
+__pycache__
+symbology-style.db
+all.py
+create_all.py
+init_for_check.py
+mouse_click.py
+c_part/test_cppyy.py

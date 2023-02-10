@@ -1,0 +1,34 @@
+{
+  "styles": [
+    {
+      "title": "Окрашивание по преобладающей породе",
+      "layers": [
+        {
+          "geo_allotments_lines": {
+            "file": "file_style_name_lines.qml",
+            "z-index": 0
+          },
+          "geo_allotments_polygons": {
+            "file": "file_style_name_polygons.qml",
+            "z-index": 1
+          },
+          "geo_quarters": {
+            "file": "file_style_name_geo_quarters_default.qml",
+            "z-index": 2
+          }
+        }
+      ]
+    },
+    {
+      "title": "Окрашивание по кварталам",
+      "layers": [
+        {
+          "geo_quarters_polygons": {
+            "file": "geo_quarters_polygons_main.qml",
+            "z-index": 0
+          }
+        }
+      ]
+    }
+  ]
+}
